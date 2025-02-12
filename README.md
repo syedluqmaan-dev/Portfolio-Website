@@ -28,16 +28,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ---
 
-## 📂 Project Structure
-
-src/ ├── components/ │ ├── UI/ │ │ ├── Header/ │ │ ├── Footer/ │ ├── Banner/ │ ├── About/ │ ├── Skills/ │ ├── Work/ │ ├── Projects/ │ ├── Contact/ │ ├── particles/ │ ├── mouseeffects/ ├── assets/ │ ├── Fonts/ │ ├── Images/ │ ├── screenshots/ └── App.jsx └── App.css
-
-yaml
-Copy
-Edit
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -45,25 +35,24 @@ Edit
 Ensure you have **Node.js** and **npm** installed on your machine.
 
 ```bash
+
 node -v
 npm -v
-Installation
+
+**Installation**
+
 Clone the Repository:
-bash
-Copy
-Edit
-git clone https://github.com/mihirdave21/portfolio.git
-cd portfolio
-Install Dependencies:
-bash
-Copy
-Edit
+git clone https://github.com/Anonymeniemc137/mihir_portfolio.git
+
+Go to the project directory :
+cd mihir_portfolio
+
+Install dependencies:
 npm install
-Start the Development Server:
-bash
-Copy
-Edit
+
+Run the project:
 npm run dev
+
 View the App:
 Visit http://localhost:3000 in your browser to view the live site.
 
@@ -71,8 +60,9 @@ Visit http://localhost:3000 in your browser to view the live site.
 Feel free to reach out for collaborations, questions, or just to say hi!
 
 Email: mihirrdave21@gmail.com
-LinkedIn: Mihir R Dave
+LinkedIn: [Mihir R Dave](https://www.linkedin.com/in/mihir-r-dave/)
 Instagram: @lifeofmihirdave
+
 📜 License
 This project is open-source and available under the MIT License.
 
