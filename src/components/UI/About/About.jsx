@@ -4,31 +4,29 @@ function About() {
   return (
     <div className="about-container" id="about">
       <h2 className="about-heading">About Me!</h2>
-      <div className="about-content">
-        <p>
-          From my early days of writing simple programs to now <span className="highlighted-text">leading the development of complex eCommerce solutions</span>,
-          my journey has been all about curiosity and constant learning. With <span className="highlighted-text">5 years</span> of experience in <span className="highlighted-text">WordPress & WooCommerce</span>,
-          I’m dedicated to building websites and stores that don’t just work—they help my clients’ businesses shine.
-        </p>
+     <div className="about-content">
+  <p>
+    I’m Syed Luqmaan, a Frontend & Mobile Developer with a strong foundation in building modern, scalable applications using <span className="highlighted-text">React.js</span> and <span className="highlighted-text">React Native</span>. I specialize in creating intuitive user interfaces, optimizing performance, and translating design concepts into responsive, production-ready code.
+  </p>
 
-        <p>
-          I love <span className="highlighted-text">mentoring junior developers</span>, sharing what I’ve learned, and keeping communication with clients smooth and easy every step of the way.
-          Together, <span className="highlighted-text">we create something amazing every time!</span>
-        </p>
+  <p>
+    I've contributed to diverse projects ranging from <span className="highlighted-text">vendor management platforms and healthcare solutions to full-stack content systems</span>. My experience spans across state management with Redux, real-time databases with Firebase, backend integration using Node.js and Express, and working with SQL-based databases like PostgreSQL and MySQL.
+  </p>
 
-        <p>
-          Now, <span className="highlighted-text">my curiosity has led me to the world of React.</span> I’m passionate about building dynamic, modern web applications and excited to dive into this powerful framework to take my development skills to the next level. 🚀
-        </p>
+  <p>
+   I focus on writing clean, maintainable code and following best practices across the development lifecycle. Whether collaborating in agile teams or working independently, I value strong communication, efficient workflows, and continuous learning to keep up with evolving technologies.
+  </p>
 
-        <p>
-          If we step away from the code, you’ll probably find me with my nose in a <span className="highlighted-text">good book</span>, immersed in a <span className="highlighted-text">game</span>,
-          or <span className="highlighted-text">binge-watching movies & TV series</span>. I’m also deeply interested in <span className="highlighted-text">meditation</span>,
-          <span className="highlighted-text">psychedelics</span>, <span className="highlighted-text">enlightenment</span>, and the <span className="highlighted-text">fascinating journey of evolution. 🌌</span>
-        </p>
+  <p>
+    My goal is to contribute to impactful products that solve real problems—while constantly growing as a developer. Currently, I’m focused on expanding my full-stack capabilities and taking on challenging frontend roles where I can deliver both technical value and a great user experience.
+  </p>
 
-        <p className="favorite-quote-title"><span className="highlighted-text">Favorite Quote:</span></p>
-        <p className="favorite-quote"><strong>"Greatness comes from humble beginnings; it comes from grunt work. It means you’re the least important person in the room—until you change that with results."</strong></p>
-      </div>
+  <p className="favorite-quote-title"><span className="highlighted-text">Favorite Quote:</span></p>
+  <p className="favorite-quote">
+    <strong>"Greatness comes from humble beginnings; it comes from grunt work. It means you're the least important person in the room — until you change that with results."</strong>
+  </p>
+</div>
+
     </div>
   );
 }

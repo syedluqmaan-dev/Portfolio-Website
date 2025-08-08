@@ -9,55 +9,92 @@ function Experience() {
     };
 
     return (
-        <div className="experience-container" id='experience'>
-            <h2 className="experience-heading">Experience</h2>
-            <div className="experience-content">
-                <div className="tabs">
-                    <button 
-                        className={`tab-button ${activeTab === 'Shaligram' ? 'active' : ''}`} 
-                        onClick={() => handleTabClick('Shaligram')}>
-                        <strong>02.</strong> Shaligram Infotech LLP
-                    </button>
-                    
-                    <button 
-                        className={`tab-button ${activeTab === 'Kudos' ? 'active' : ''}`} 
-                        onClick={() => handleTabClick('Kudos')}>
-                        <strong>01.</strong> KudosIntech Software Pvt. Ltd.
-                    </button>
-                </div>
+       <div className="experience-container" id='experience'>
+  <h2 className="experience-heading">Experience</h2>
+  <div className="experience-content">
+    <div className="tabs">
+      <button 
+        className={`tab-button ${activeTab === 'Zaniha' ? 'active' : ''}`} 
+        onClick={() => handleTabClick('Zaniha')}>
+        <strong>03.</strong> Zaniha Technologies
+      </button>
+      
+      <button 
+        className={`tab-button ${activeTab === 'MyCLNQ' ? 'active' : ''}`} 
+        onClick={() => handleTabClick('MyCLNQ')}>
+        <strong>02.</strong> MyCLNQ Health
+      </button>
 
-                <div className="tab-content">
-                    {activeTab === 'Shaligram' && (
-                        <div className="experience-details fade-in">
-                            <h4>Sr. Software Engineer <span>[ Oct 2023 - Present ]</span></h4>
-                            <ul>
-                                <li>Leveled up to <span className='highlighted-text'>Sr. Software Engineer</span> at Shaligram—finally, my code had a title as cool as it deserved!</li>
-                                <li>Took on <span className='highlighted-text'>higher-level, complex projects</span> that pushed my limits and sharpened my problem-solving ninja skills. 🥷</li>
-                                <li>Went deep into <span className='highlighted-text'>core PHP</span>, polished my <span className='highlighted-text'>WordPress</span> and <span className='highlighted-text'>WooCommerce</span> expertise, and built some seriously <span className='highlighted-text'>complex jQuery modules</span> (yes, it got <span className='highlighted-text'>that</span> intense).</li>
-                                <li>The experience environment? <span className='highlighted-text'>Friendly and chill</span>—perfect for balancing intense coding sessions with occasional coffee-fueled brainstorming!</li>
-                                <li>With a bit of breathing room after experience, I started exploring the <span className='highlighted-text'>React</span> universe and diving deeper into <span className='highlighted-text'>JavaScript</span>. (Spoiler: I’m loving it! 🚀)</li>
-                                <li>Still at Shaligram, still learning new things every day, and after experience hours, you’ll find me refining my <span className='highlighted-text'>React skills</span> and plotting my next big tech adventure.</li>
-                            </ul>
-                        </div>
-                    )}
-                    
-                    {activeTab === 'Kudos' && (
-                        <div className="experience-details fade-in">
-                            <h4>Software Engineer <span>[ Oct 2019 - Sep 2023 ]</span></h4>
-                            <ul>
-                                <li>Joined Kudos as a <span className='highlighted-text'>fresh-faced Software Engineer</span> — with a head full of dreams and code!</li>
-                                <li>Kicked things off with <span className='highlighted-text'>3 months of training</span>, diving into the <span className='highlighted-text'>building blocks of web development</span>: PHP, HTML, CSS, and jQuery (aka my new best friends).</li>
-                                <li>After training, Kudos saw my <span className='highlighted-text'>potential and unstoppable curiosity</span> — they confirmed my employment and threw me into <span className='highlighted-text'>real projects</span> (no pressure, right?).</li>
-                                <li>Learned the ropes of the <span className='highlighted-text'>corporate world</span>: from navigating office coffee machines to mastering <span className='highlighted-text'>WordPress framework</span> and crafting slick <span className='highlighted-text'>frontend solutions</span> with jQuery.</li>
-                                <li>Took charge of <span className='highlighted-text'>solo projects</span> like a boss, trained <span className='highlighted-text'>junior developers</span>, and even became the go-to person for <span className='highlighted-text'>client communication</span>—yes, <span className='highlighted-text'>I can code and talk</span>!</li>
-                                <li>Specialized in <span className='highlighted-text'>custom WordPress solutions</span>, building everything from <span className='highlighted-text'>eCommerce stores</span> to <span className='highlighted-text'>custom field blocks</span> and integrating those tricky <span className='highlighted-text'>payment gateways</span>.</li>
-                                <li>Four years flew by faster than a jQuery function call! I grew, learned, and loved every minute at Kudos. 🚀</li>
-                            </ul>
-                        </div>
-                    )}
-                </div>
-            </div>
+      <button 
+        className={`tab-button ${activeTab === 'Maskan' ? 'active' : ''}`} 
+        onClick={() => handleTabClick('Maskan')}>
+        <strong>01.</strong> Maskan Technologies
+      </button>
+    </div>
+
+    <div className="tab-content">
+
+      {/* Zaniha Technologies */}
+      {activeTab === 'Zaniha' && (
+        <div className="experience-details fade-in">
+          <h4>Frontend Developer <span>[ Oct 2024 – Feb 2025 ]</span></h4>
+          <ul>
+            <li>Worked as a key member of the frontend team at Zaniha Technologies, contributing to the development of core internal tools and client-facing products.</li>
+            <li>Developed a fully functional <span className="highlighted-text">vendor management application</span> using React Native, improving task assignment workflows for 500+ users and reducing assignment time by 35%.</li>
+            <li>Designed and implemented an <span className="highlighted-text">admin dashboard</span> with real-time operational control, integrated through REST APIs for seamless backend communication.</li>
+            <li>Led the frontend implementation of a new <span className="highlighted-text">company website</span> using React.js, resulting in a 20% improvement in mobile engagement through responsive UI and modern design principles.</li>
+            <li>Worked collaboratively with designers, backend developers, and QA engineers to ensure high code quality, performance optimization, and bug-free deployment.</li>
+          </ul>
         </div>
+      )}
+
+      {/* MyCLNQ Health */}
+      {activeTab === 'MyCLNQ' && (
+        <div className="experience-details fade-in">
+          <h4>Frontend Developer Intern <span>[ Feb 2024 – Apr 2024 ]</span></h4>
+          <ul>
+            <li>Interned remotely with a Singapore-based healthcare tech startup to improve key features in their cross-platform mobile app.</li>
+            <li>Upgraded critical modules like <span className="highlighted-text">appointment booking, patient profiles, and health tracking</span> using React Native.</li>
+            <li>Fixed numerous <span className="highlighted-text">cross-platform UI bugs</span> and enhanced responsiveness, contributing to improved app performance and a higher rating on app stores.</li>
+            <li>Worked closely with the core development team to understand codebase structure, contribute to sprint goals, and participate in daily stand-ups.</li>
+          </ul>
+        </div>
+      )}
+
+      {/* Maskan Technologies */}
+      {activeTab === 'Maskan' && (
+        <div className="experience-details fade-in">
+          <h4>Frontend Development Trainee <span>[ Feb 2023 – Dec 2023 ]</span></h4>
+          <ul>
+  <li>
+    Worked as a <span className="highlighted-text">Frontend React Native Developer</span> on a healthcare super-app 
+    (similar to Practo) with three core modules — <span className="highlighted-text">Doctor, Patient, and Admin</span>.
+  </li>
+  <li>
+    Implemented pixel-perfect UI by translating <span className="highlighted-text">Figma designs</span> into 
+    scalable and reusable <span className="highlighted-text">React Native components</span> using Expo.
+  </li>
+  <li>
+    Integrated <span className="highlighted-text">REST APIs</span> for booking, consultation, and 
+    medical record management, ensuring smooth cross-module communication.
+  </li>
+  <li>
+    Collaborated with backend developers and QA teams in an 
+    <span className="highlighted-text"> Agile/Scrum</span> environment to deliver iterative updates.
+  </li>
+  <li>
+    Optimized performance across Android and iOS by reducing render cycles, improving navigation 
+    flow, and ensuring responsive design for multiple screen sizes.
+  </li>
+</ul>
+
+        </div>
+      )}
+
+    </div>
+  </div>
+</div>
+
     );
 }
 

@@ -22,23 +22,23 @@ function Footer() {
 
     return (
         <footer className="footer-container">
-            <div className="social-icons">
-                <a href="tel:+917600556556" className="icon" aria-label="Phone">
+            {/* <div className="social-icons">
+                <a href="tel:+919620817001" className="icon" aria-label="Phone">
                     <FontAwesomeIcon icon={faPhone} />
                 </a>
-                <a href="https://www.instagram.com/lifeofmihirdave" target="_blank" rel="noopener noreferrer" className="icon" aria-label="Instagram">
+                <a href="https://www.instagram.com/being.syed/" target="_blank" rel="noopener noreferrer" className="icon" aria-label="Instagram">
                     <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a href="https://www.linkedin.com/in/mihir-r-dave/" target="_blank" rel="noopener noreferrer" className="icon" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/syed-luqmaan-5a124b157/" target="_blank" rel="noopener noreferrer" className="icon" aria-label="LinkedIn">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-            </div>
+            </div> */}
 
             <p className="footer-text" style={{ marginBottom: 10 }}>
                 Crafted with cosmic guidance, coffee ☕ in hand, chaos {chaosEmojis[chaosIndex]} in mind, code {codeEmojis[codeIndex]} on screen
             </p>
             <p className="footer-text">
-                Designed and Developed by <span className="footer-dev-name">Mihir Dave💫</span>
+                Designed and Developed by <span className="footer-dev-name">Syed Luqmaan</span>
             </p>
         </footer>
     );

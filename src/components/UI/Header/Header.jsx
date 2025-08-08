@@ -12,19 +12,25 @@ function Header() {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false); // Close menu on mobile after clicking
+      setIsMenuOpen(false);
     }
   };
 
   const handleResumeClick = () => {
-    window.open('src/assets/Resume/mihir-dave-5years-dev-fullstack-resume.pdf', '_blank');
+    window.open('src/assets/Resume/Syed_Luqmaan_Frontend_Mobile_Developer_Resume.pdf', '_blank');
+  };
+
+  const handleLogoClick = () => {
+    // window.location.reload(); // Reloads the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
   };
 
   return (
     <header className="header">
       <div className="header-container">
         {/* Logo */}
-        <div className="logo-container">
+        <div className="logo-container" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
           <img
             src="src/assets/images/logo.png"
             className="portfolio-logo"
